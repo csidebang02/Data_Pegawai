@@ -13,10 +13,10 @@ require 'function.php';
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = md5($_POST['password']);
-    // password menggunakan md5
+    // password menggunakan MD5
 
     // mengambil data dari user dimana username yg diambil
-    $result = mysqli_query($koneksi, "SELECT * FROM user WHERE username = '$username'");
+    $result = mysqli_query($koneksi, "SELECT * FROM user WHERE username = '$username' AND password = '$password'");
 
     $cek = mysqli_num_rows($result);
 

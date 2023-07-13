@@ -86,7 +86,7 @@ $pegawai = query("SELECT * FROM pegawai ORDER BY nip DESC");
                             <th>Jenis Kelamin</th>
                             <th>Umur</th>
                             <th>Jabatan</th>
-                            <th> Alamat</th>
+                            <th>Alamat</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -105,6 +105,7 @@ $pegawai = query("SELECT * FROM pegawai ORDER BY nip DESC");
                                 ?>
                                 <td><?= floor($hitung); ?> Tahun</td>
                                 <td><?= $row['jabatan']; ?></td>
+                                <td><?= $row['alamat']; ?></td>
                                 <td>
                                     <button class="btn btn-success btn-sm text-white detail" data-id="<?= $row['nip']; ?>" style="font-weight: 600;"><i class="bi bi-info-circle-fill"></i>&nbsp;Detail</button> |
 
@@ -137,24 +138,27 @@ $pegawai = query("SELECT * FROM pegawai ORDER BY nip DESC");
     <!-- Close Modal Detail Data -->
 
     <!-- Footer -->
-    <!-- <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row bg-dark text-white">
             <div class="col-md-6 my-2" id="about">
                 <h4 class="fw-bold text-uppercase">About</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolore sed porro modi mollitia quaerat? Nam, error fugit sed, maiores illum architecto, officiis voluptate nesciunt voluptatibus aut reprehenderit perspiciatis doloremque!</p>
+                <p>PT. Indofood CBP Sukses Makmur Tbk (ICBP) bergerak dalam bidang pembuatan mie dan bahan makanan, produk makanan kuliner, biskuit, makanan ringan, nutrisi dan makanan khusus, kemasan, perdagangan, transportasi, pergudangan dan cold storage, jasa manajemen dan penelitian dan pengembangan.</p>
             </div>
             <div class="col-md-6 my-2 text-center link">
                 <h4 class="fw-bold text-uppercase">Account Links</h4>
-                <a href="https://web.facebook.com/vikry.surya.5/" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
-                <a href="https://github.com/vikrysurya24" target="_blank"><i class="bi bi-github fs-3"></i></a>
-                <a href="https://www.instagram.com/vikrysurya_/" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
-                <a href="https://twitter.com/vikrysurya_" target="_blank"><i class="bi bi-twitter fs-3"></i></a>
+                <a href="https://web.facebook.com/christian.sidebang/" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+                <a href="https://github.com/csidebang02" target="_blank"><i class="bi bi-github fs-3"></i></a>
+                <a href="https://www.instagram.com/christiansidebang/" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
+                <a href="https://twitter.com/christiansideb1" target="_blank"><i class="bi bi-twitter fs-3"></i></a>
             </div>
         </div>
-    </div> -->
-    <!-- <footer class="bg-dark text-white text-center" style="padding: 5px;">
-        <p>Created with <i class="bi bi-suit-heart-fill" style="color: red;"></i> by <u style="color: #fff;">Vikry Surya P</u></p>
-    </footer> -->
+    </div>
+    <footer class="bg-dark text-white text-center" style="padding: 5px;">
+        <p>Created with by</p>
+            <p>
+                <u style="color: #00FFFF;">Christian Sidebang </u>
+            </p>
+    </footer>
     <!-- Close Footer -->
 
     <!-- Bootstrap -->

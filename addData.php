@@ -142,29 +142,6 @@ if (isset($_POST['simpan'])) {
     </div>
     <!-- Close Container -->
 
-
-
-    <!-- Footer -->
-    <!-- <div class="container-fluid">
-        <div class="row bg-dark text-white">
-            <div class="col-md-6 my-2">
-                <h4 class="fw-bold text-uppercase">About</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolore sed porro modi mollitia quaerat? Nam, error fugit sed, maiores illum architecto, officiis voluptate nesciunt voluptatibus aut reprehenderit perspiciatis doloremque!</p>
-            </div>
-            <div class="col-md-6 my-2 text-center link">
-                <h4 class="fw-bold text-uppercase">Account Links</h4>
-                <a href="https://web.facebook.com/vikry.surya.5/" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
-                <a href="https://github.com/vikrysurya24" target="_blank"><i class="bi bi-github fs-3"></i></a>
-                <a href="https://www.instagram.com/vikrysurya_/" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
-                <a href="https://twitter.com/vikrysurya_" target="_blank"><i class="bi bi-twitter fs-3"></i></a>
-            </div>
-        </div>
-    </div>
-    <footer class="bg-dark text-white text-center" style="padding: 5px;">
-        <p>Created with <i class="bi bi-suit-heart-fill" style="color: red;"></i> by <a href="https://instagram.com/vikrysurya_" target="_blank" style="color: #fff;">Vikry Surya P</a></p>
-    </footer> -->
-    <!-- Close Footer -->
-
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
