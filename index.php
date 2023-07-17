@@ -33,13 +33,12 @@ $pegawai = query("SELECT * FROM pegawai ORDER BY nip DESC");
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/style.css">
-
     <title>PT. INDOFOOD CBP SUKSES MAKMUR</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning text-uppercase">
         <div class="container">
             <a class="navbar-brand" href="index.php">PT. INDOFOOD CBP SUKSES MAKMUR</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,7 +86,7 @@ $pegawai = query("SELECT * FROM pegawai ORDER BY nip DESC");
                             <th>Umur</th>
                             <th>Jabatan</th>
                             <th>Alamat</th>
-                            <th>Aksi</th>
+                            <th>OPSI</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -139,7 +138,7 @@ $pegawai = query("SELECT * FROM pegawai ORDER BY nip DESC");
 
     <!-- Footer -->
     <div class="container-fluid">
-        <div class="row bg-dark text-white">
+        <div class="row bg-warning text-black">
             <div class="col-md-6 my-2" id="about">
                 <h4 class="fw-bold text-uppercase">About</h4>
                 <p>PT. Indofood CBP Sukses Makmur Tbk (ICBP) bergerak dalam bidang pembuatan mie dan bahan makanan, produk makanan kuliner, biskuit, makanan ringan, nutrisi dan makanan khusus, kemasan, perdagangan, transportasi, pergudangan dan cold storage, jasa manajemen dan penelitian dan pengembangan.</p>
